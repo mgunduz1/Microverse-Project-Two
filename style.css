@@ -98,9 +98,9 @@ body {
 .image-section-1{
     display: flex;
     flex-direction: row;
-    width: 80%;
-    margin-top: 0;
-    margin-left: 5%;    
+    width: 86%;
+    height: auto;
+    margin: auto;   
 }
 
 .news-img-1{
@@ -129,34 +129,38 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:80%;
-    margin-left: 5%;
+    width:86%;
+    margin: auto;
 }
 
-.section-heading-left a{
-    text-decoration: none;
-    color: orange;
+.section-heading-left {
+    color: #f43;
+    float: left;
+}
+.section-heading-right {
+    color: #f43;
+    float: right;
 }
 
-.section-heading-right a{
-    text-decoration: none;
-    color: orange; 
-    margin: 10px;
+.funding-rounds {
+    width: 86%;
+    height: auto;
+    margin: auto;
 }
+
 
 .info-cards{
     float: left;
-    width: 23.5%;
+    width: 23%;
     box-sizing: border-box;
     height: 300px;
     position: relative;
     margin: 10px;
-    
 }
 
 .info-cards-image{
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     position: absolute;
     top: 10px;
     left: 10px;

@@ -261,39 +261,116 @@ body {
     position: relative;
 }
 
-.hard-fork-p1-text {
+.apps-p1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Untitled-design-2020-10-01T165604.930-368x276.png");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    position: relative;
+}
+
+.gear-p1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Qualcomm-Snapdragon-870-368x276.jpg");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    position: relative;
+}
+
+.tech-p1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-32-368x276.jpg");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    position: relative;
+}
+
+.creative-p1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    position: relative;
+}
+
+.podium-p1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    position: relative;
+}
+
+.insights-p1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/salary-negotiation-meeting-gq-368x276.png");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    position: relative;
+}
+.launch-p1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    position: relative;
+}
+
+.distract-p1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines-368x276.jpg");
+    background-size: cover;
+    height: 250px;
+    color: #ffffff;
+    position: relative;
+}
+
+.hard-fork h2, .apps h2, .tech h2, .gear h2, .creative h2, .podium h2, .insights h2, .launch h2, .distract h2 {
+    color:#f42;
+    font-weight: 900;
+}
+
+.hard-fork-p1-text, .apps-p1-text, .tech-p1-text, .gear-p1-text, .creative-p1-text, .podium-p1-text, .insights-p1-text, .launch-p1-text, .distract-p1-text {
     position:absolute; 
     bottom: 0;
     left: 0.8rem;
 }
-.hard-fork-p1-text h3, h5, p  {
+
+.hard-fork-p1-text h3 h5 p, .apps-p1-text h3 h5 p, .tech-p1-text h3 h5 p, .gear-p1-text h3 h5 p, .creative-p1-text h3 h5 p, .podium-p1-text h3 h5 p, .insights-p1-text h3 h5 p, .launch-p1-text h3 h5 p, .distract-p1-text h3 h5 p {
     margin-block-start: 0.3rem;
     margin-block-end: 0.3rem;
 }
 
-.hard-fork-p2 {
+.hard-fork-p2, .apps-p2, .tech-p2, .gear-p2, .creative-p2, .podium-p2, .insights-p2, .launch-p2, .distract-p2 {
     background-color: rgba(255,68,34,.06);
     display: flex;
     margin-top: 2px;
     justify-content: space-between;
 }
-.hard-fork-p2-text {
+.hard-fork-p2-text, .apps-p2-text, .tech-p2-text, .gear-p2-text, .creative-p2-text, .podium-p2-text, .insights-p2-text, .launch-p2-text, .distract-p2-text {
     color:#f42;
     padding: 10px;
 }
-.hard-fork-p2-text p { 
+.hard-fork-p2-text p, .apps-p2-text p, .tech-p2-text p, .gear-p2-text p, .creative-p2-text p, .podium-p2-text p, .insights-p2-text p, .launch-p2-text p, .distract-p2-text p { 
     font-weight: 700;
     font-size: 14px;
 }
-.hard-fork-p2-text h5 { 
+.hard-fork-p2-text h5, .apps-p2-text h5, .tech-p2-text h5, .gear-p2-text h5, .creative-p2-text h5, .podium-p2-text h5, .insights-p2-text h5, .launch-p2-text h5, .distract-p2-text h5 { 
     font-weight: 200;
 }
 
-.hard-fork ul {
+.hard-fork ul, .apps ul, .gear ul, .tech ul, .creative ul, .podium ul, .insights ul, .launch ul, .distract ul {
     list-style: none;
     padding-left: 1em;
 }
-.hard-fork ul li {
+.hard-fork ul li, .apps ul li, .gear ul li, .tech ul li, .creative ul li, .podium ul li, .insights ul li, .launch ul li, .distract ul li {
     color:#555; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 13px;
@@ -311,60 +388,6 @@ body {
     margin-left: -1em;
 }
 
-
-
-
-
-.apps-p1 {
-    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Untitled-design-2020-10-01T165604.930-368x276.png");
-    background-size: cover;
-    height: 250px;
-    color: #ffffff;
-    position: relative;
-}
-
-.apps-p1-text {
-    position:absolute; 
-    bottom: 0;
-    left: 0.8rem;
-}
-.apps-p1-text h3, h5, p  {
-    margin-block-start: 0.3rem;
-    margin-block-end: 0.3rem;
-}
-
-.apps-p2 {
-    background-color: rgba(255,68,34,.06);
-    display: flex;
-    margin-top: 2px;
-    justify-content: space-between;
-}
-.apps-p2-text {
-    color:#f42;
-    padding: 10px;
-}
-.apps-p2-text p { 
-    font-weight: 700;
-    font-size: 14px;
-}
-.apps-p2-text h5 { 
-    font-weight: 200;
-}
-
-.apps ul {
-    list-style: none;
-    padding-left: 1em;
-}
-.apps ul li {
-    color:#555; 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.5;
-    padding: 2px 0 4px 0;
-}
-
 .apps ul li::before {
     content: "\2022"; 
     color: #f42;
@@ -372,59 +395,6 @@ body {
     display: inline-block; 
     width: 1em; 
     margin-left: -1em;
-}
-
-
-
-
-.gear-p1 {
-    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 55%),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Eye-strain-screen-time-hed-368x276.jpg");
-    background-size: cover;
-    height: 250px;
-    color: #ffffff;
-    position: relative;
-}
-
-.gear-p1-text {
-    position:absolute; 
-    bottom: 0;
-    left: 0.8rem;
-}
-.gear-p1-text h3, h5, p  {
-    margin-block-start: 0.3rem;
-    margin-block-end: 0.3rem;
-}
-
-.gear-p2 {
-    background-color: rgba(255,68,34,.06);
-    display: flex;
-    margin-top: 2px;
-    justify-content: space-between;
-}
-.gear-p2-text {
-    color:#f42;
-    padding: 10px;
-}
-.gear-p2-text p { 
-    font-weight: 700;
-    font-size: 14px;
-}
-.gear-p2-text h5 { 
-    font-weight: 200;
-}
-
-.gear ul {
-    list-style: none;
-    padding-left: 1em;
-}
-.gear ul li {
-    color:#555; 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.5;
-    padding: 2px 0 4px 0;
 }
 
 .gear ul li::before {
@@ -436,10 +406,59 @@ body {
     margin-left: -1em;
 }
 
+.tech ul li::before {
+    content: "\2022"; 
+    color: #f42;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
 
+.creative ul li::before {
+    content: "\2022"; 
+    color: #f42;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
 
+.podium ul li::before {
+    content: "\2022"; 
+    color: #f42;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
 
+.insights ul li::before {
+    content: "\2022"; 
+    color: #f42;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
 
+.launch ul li::before {
+    content: "\2022"; 
+    color: #f42;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
+
+.distract ul li::before {
+    content: "\2022"; 
+    color: #f42;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
 
 .ld-head {
     display: flex;

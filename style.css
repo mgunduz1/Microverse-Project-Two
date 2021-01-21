@@ -65,7 +65,7 @@ body {
 .first {
   grid-area: 1 / 1 / 3 / 2;
   background-image:
-  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 40%, rgba(255,68,51,0.8) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 68, 51, 0.8) 100%),
     url("/Assets/img-trio.png");
   background-size: cover;
   color: #fff;
@@ -828,7 +828,7 @@ footer {
 
   .first {
     background-image:
-    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%),
+      linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%),
       url("/Assets/img-trio.png");
   }
 
@@ -988,9 +988,11 @@ footer {
     grid-template-rows: 25vh 25vh 25vh;
     margin-top: 12vh;
   }
-  .first { grid-area: 1 / 1 / 2 / 2; 
+
+  .first {
+    grid-area: 1 / 1 / 2 / 2;
     background-image:
-    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%),
+      linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%),
       url("/Assets/img-trio.png");
   }
   .second { grid-area: 2 / 1 / 3 / 2; }
@@ -1140,10 +1142,10 @@ footer {
       "distract";
     margin-bottom: 8vh;
   }
- 
-.img-great-mid {
-  object-fit: contain;
-}
+
+  .img-great-mid {
+    object-fit: contain;
+  }
 
   .ld-head {
     display: flex;

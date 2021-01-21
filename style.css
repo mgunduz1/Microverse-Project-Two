@@ -65,7 +65,7 @@ body {
 .first {
   grid-area: 1 / 1 / 3 / 2;
   background-image:
-    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%),
+  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 40%, rgba(255,68,51,0.8) 100%),
     url("/Assets/img-trio.png");
   background-size: cover;
   color: #fff;
@@ -500,6 +500,8 @@ body {
 .distract-p2-text {
   color: #f42;
   padding: 0 5px 0 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hard-fork-p2-text h5,
@@ -824,6 +826,12 @@ footer {
     width: 98vw;
   }
 
+  .first {
+    background-image:
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%),
+      url("/Assets/img-trio.png");
+  }
+
   .ln-head {
     display: flex;
     width: 95vw;
@@ -936,7 +944,7 @@ footer {
     display: flex;
     justify-content: space-between;
     top: 0;
-    height: 20vh;
+    height: 12vh;
     width: 98vw;
     position: fixed;
     z-index: 1;
@@ -967,8 +975,8 @@ footer {
     display: block;
     height: 48px;
     opacity: 0.25;
-    padding: 16px;
-    width: 48px;
+    width: 30px;
+    padding-top: 4vh;
   }
 
   .img-trio {
@@ -978,9 +986,13 @@ footer {
     height: 80vh;
     grid-template-columns: 96vw;
     grid-template-rows: 25vh 25vh 25vh;
-    margin-top: 20vh;
+    margin-top: 12vh;
   }
-  .first { grid-area: 1 / 1 / 2 / 2; }
+  .first { grid-area: 1 / 1 / 2 / 2; 
+    background-image:
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%),
+      url("/Assets/img-trio.png");
+  }
   .second { grid-area: 2 / 1 / 3 / 2; }
   .third { grid-area: 3 / 1 / 4 / 2; }
   .tnw-logo { display: none; }
@@ -1018,6 +1030,19 @@ footer {
     padding-bottom: 10px;
     font-size: 75%;
   }
+
+  .news-img-1 img,
+  .news-img-2 img,
+  .news-img-3 img,
+  .news-img-4 img,
+  .news-img-5 img,
+  .news-img-6 img,
+  .news-img-7 img,
+  .news-img-8 img {
+    width: 45%;
+    padding-right: 3px;
+  }
+
   .news-img-1 { grid-area: 1 / 1 / 2 / 2; }
   .news-img-2 { grid-area: 2 / 1 / 3 / 2; }
   .news-img-3 { grid-area: 3 / 1 / 4 / 2; }
@@ -1115,6 +1140,10 @@ footer {
       "distract";
     margin-bottom: 8vh;
   }
+ 
+.img-great-mid {
+  object-fit: contain;
+}
 
   .ld-head {
     display: flex;

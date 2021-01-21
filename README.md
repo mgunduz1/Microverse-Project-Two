@@ -1,6 +1,6 @@
 ## The Next Web Clone
 
-![Screenshot-of-live-demo](./Assets/Screenshot_2'.png)
+![Screenshot-of-live-demo](./Assets/Screenshot_2.png)
 
 A The Next Web clone, used for training purposes
 

@@ -1,0 +1,79 @@
+//variables
+$black: rgb(5, 5, 5);
+$spacing: 0 ;
+$stop-display: none;
+$flexbox: flex;
+$create-rows: row;
+$white: #fff;
+$item-spacing: space-between;
+
+.top-bar{
+    background-color: $black;
+    display: $flexbox;
+    flex-direction: $create-rows;
+    justify-content: $item-spacing;
+}
+
+*{
+    margin: $spacing;
+    padding: $spacing;
+}
+
+a{
+    text-decoration: $stop-display;
+}
+
+.container-768{
+    display: $stop-display;
+}
+
+.mobile-top-nav{
+    display: $stop-display;
+}
+
+.top-second{
+    display: $flexbox;
+    flex-direction: $create-rows;
+    justify-content: $item-spacing;
+}
+
+
+
+//nesting
+
+$bar-text-size: 12px;
+$bar2-text-size: 14px;
+$upper-bar-spacing: 3px 1px 3px 1px;
+$second-bar-spacing: 2px 5px 2px 2px;
+
+.top-bar{
+    .top-left-bar{
+        a{
+            color: $white;
+            font-size: $bar-text-size;
+            padding: $upper-bar-spacing;
+        }
+    }
+    .top-right-bar{
+        a{
+            color: $white;
+            font-size: $bar-text-size;
+            padding: $upper-bar-spacing;
+        }
+    }
+}
+
+.top-second{
+    .top-second-left{
+        a{
+        color: $black;
+        margin: $second-bar-spacing;
+        }
+    }
+    .top-second-right{
+        a{
+            color: $black;
+            margin: $second-bar-spacing;
+        }
+    }
+}
